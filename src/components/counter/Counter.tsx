@@ -1,6 +1,9 @@
-// Counter.js
+
 import React, { useState } from "react";
-import Button from "../button/Button"; // Убедись, что путь верный
+import Button from '../button/Button';
+
+
+
 
 const Counter = () => {
     const [count, setCount] = useState(0);
